@@ -10,9 +10,9 @@ Bank::Compte::Compte() {
 	this->nomCl = (char*)malloc(sizeof(char) * 30);
 }
 
-Bank::Compte::Compte(int numCpt, char* nomCl, double Solde) {
+Bank::Compte::Compte(int numCpt, char* nom, double Solde) {
 	this->solde = Solde;
-	this->nomCl = nomCl;
+	this->nomCl = nom;
 	this->numeroCpt = numCpt;
 	
 }
